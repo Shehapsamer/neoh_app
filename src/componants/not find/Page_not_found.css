@@ -1,0 +1,38 @@
+.container_2{
+    padding: 120px 20%;
+    text-align: center;
+}
+.container_2 h1{
+    font-size: 140px;
+    color: #ffffffdb;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-top: 70px ;
+}
+.container_2 h3{
+    font-size: 30px ;
+    color: #ccc;
+    padding: 20px 0;
+}
+.container_2 p{
+    font-size: 18px;
+    color: #666;
+    padding-bottom: 30px;
+}
+.container_2 a{
+    padding: 15px 30px ;
+    color: #ccc;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #666;
+    font-size: 20px;
+    transition: all ease-in-out .3s;
+    text-transform: uppercase;
+}
+.container_2 a:hover{
+    color: #ccc;
+    border-color:#78f701 ;
+
+}

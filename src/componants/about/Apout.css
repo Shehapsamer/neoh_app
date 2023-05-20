@@ -1,0 +1,206 @@
+.s1_apout{
+    background-image: url(../../img/bg.jpg);
+    height: 550px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.s1_apout .container{
+    z-index: 155;
+    
+}
+.s1_apout::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 550px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, .85);
+}
+.s1_apout h1{
+    font-size: 72px;
+    color: #fff;
+    font-weight: 400;
+}
+.s1_apout ul {
+    display: flex;
+    justify-content: center;   
+    padding-top: 20px; 
+}
+.s1_apout ul li {
+    color: #ccc;
+}
+.s1_apout ul li a{
+    color: #ccc;
+    font-size: 18px;
+    margin: 15px;
+    text-transform: uppercase;
+}
+/* /////////// */
+.S2_about{
+    padding: 70px 0;
+}
+.S2_about .card{
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #666 ;
+    text-align: center;
+    transition: all ease-in .3s;
+    margin-bottom: 30px;
+}
+.S2_about .card span{
+    position: relative;
+    top: 0;
+    width: 150px;
+    height: 10px;
+    background-color: #252525;
+    left: calc(50% - 75px);
+    transition: all ease-in .3s;
+}
+.S2_about .card span::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    transition: all ease-in .3s;
+    top: 0;
+    border-width: 0 10px 10px 0;
+    border-right-color: #252525;
+    right: 100%;
+}
+.S2_about .card span::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    transition:  all ease-in .3s;
+    top: 0;
+    border-width: 10px 10px  0px  0px;
+    border-top-color: #252525;
+    left: 100%;
+}
+.S2_about .card:hover{
+    border: 1px solid #78f701;
+}
+.S2_about .card:hover span{
+    background-color: #78f701;
+}
+.S2_about .card:hover.card span::before{
+    border-top-color: #78f701;
+}
+.S2_about .card:hover.card span::after{
+    border-right-color: #78f701;
+}
+.S2_about .card:hover i{
+    color: #ffffff;
+}
+.S2_about .card i{
+    margin: 30px 0 ;
+    color: #666666;
+    font-size: 50px;
+    transition: all ease-in .3s;
+}
+.S2_about .card h4{
+    color: #fff;
+    font-size: 22px;
+}
+.S2_about .card p{
+    color: #666;
+    margin: 20px 0;
+}
+/* ///////// */
+.S3_about {
+    padding: 70px 10%;
+
+}
+.S3_about .intro{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.S3_about .intro h3{
+    color: #fff;
+    font-size: 36px;
+}
+.S3_about .intro p{
+    padding: 20px 0;
+    color: #666;
+    width: 60%;
+    margin: auto;
+}
+.S3_about .card{
+    margin: 20px 0;
+    text-align: center;
+    border:  1px solid #666;
+    background-color: transparent;
+    transition: all ease-in .3s;
+}
+.S3_about .card img{
+    width: 200px !important;
+    height: 200px;
+    margin:  auto;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+.S3_about .card h5{
+    color: #fff;
+    margin: 20px 0;
+}
+.S3_about .card p{
+    color: #666;
+}
+.S3_about .card ul{
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    position: relative;
+
+    margin: 0 50px;
+}
+
+.S3_about ul i{
+    color: #666;
+    margin: 10px;
+    transition: all ease-in .3s;
+    cursor: pointer;
+}
+.S3_about ul::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    transition: all ease-in .3s;
+    border-width: 0 0 36px 12px;    
+    border-bottom-color: #252525;
+    right: 100%;
+    top: 0;
+}
+.S3_about ul::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    transition: all ease-in .3s;
+    border-width: 0 0 36px 12px;
+    border-left-color: #252525;
+    left: 100%;
+    top: 0;
+}
+.S3_about ul i:hover{
+    color: #fff;
+}
+.S3_about .card:hover{
+    border-color: #78f701;
+}

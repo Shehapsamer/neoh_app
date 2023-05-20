@@ -1,0 +1,127 @@
+.Footer{
+    padding: 70px 0;
+    background-color:#0A0A0A;
+    text-align: center;
+}
+.Footer img{
+    width: 40px !important;
+    margin: 20px 0;
+    text-align: center;
+}
+.Footer h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+}
+.Footer p{
+    width: 50%;
+    color: #ccc;
+    margin: 20px auto;
+}
+.Footer input{
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.Footer input::placeholder{
+    font-size: 20px;
+}
+.Footer button{
+    padding: 0px 40px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #ccc;
+    font-size: 18px;
+}
+.Footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.Footer ul li {
+    margin: 30px 20px;
+    font-size: 22px;
+    color: #ccc;
+    cursor: pointer;
+}
+.Footer ul li i:hover{
+    color: #fff;
+    transition: all ease-in .3s;
+}
+.footer_end{
+    display: flex;
+    padding: 30px 10%;
+    border-top: 1px solid #66666666;
+    background-color: #0A0A0A;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_end p{
+    color: #ccc;
+}
+.footer_end ul{
+    display: flex;
+    list-style: none;
+}
+.footer_end ul li{
+    margin: 0 20px ;
+}
+.footer_end ul li a{
+    color: #ccc;
+    transition: all ease-in .3s;
+}
+.footer_end ul li a:hover{
+    color: #fff;
+}
+@media screen and (max-width:600px){
+    .Footer input{
+        width: 90%;
+    }
+    .Footer p{
+        width: 90%;
+    }
+    .Footer button{
+        width: 90%;
+        margin: 10px 0;
+    }
+    .footer_end{
+        display: block;
+    }
+    .footer_end p{
+        font-size: 12px;
+    }
+    .footer_end ul li{
+        margin: 0 5px ;
+        font-size: 14px;
+    }
+}
+
+.Scroll_To_top {
+    transition: all ease-in-out 1s;
+    animation-name: tranz2;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;  
+    animation-fill-mode: forwards;
+    transition: all ease-in .3s;
+    background-color: #66666672 !important;
+}
+.Scroll_To_top:hover{
+    background-color: #666666fc !important;
+}
+@keyframes tranz2 {
+    0% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
